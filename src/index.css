@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../public/img/bgmovie.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.276);
+  overflow-x: hidden;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+header {
+  background-color: rgba(10, 10, 10, 0.7);
+  height: 100px;
+}
+
+header p {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  padding-top: 20px;
+}
+
+.modelWithGlass,
+.modelNoGlass {
+  width: 270px;
+  height: 350px;
+  margin-top: 50px;
+}
+
+.modelWithGlass {
+  margin-left: 300px;
+  position: relative;
+  overflow: hidden;
+}
+.modelNoGlass {
+  margin-right: 300px;
+}
+
+.glassOn {
+  position: absolute;
+  height: 50px;
+  width: 150px;
+  top: 140px;
+  left: 456px;
+  opacity: 0.6;
+}
+
+.glassInfo {
+  position: absolute;
+  bottom: 0;
+  right: 82px;
+  background-color: rgba(202, 101, 7, 0.4);
+  width: 270px;
+}
+
+.glassInfo h4 {
+  text-align: left;
+  padding-left: 10px;
+  margin-top: 5px;
+  font-size: 20px;
+  color: blue;
+}
+
+.glassInfo p {
+  text-align: left;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  padding: 0 5px;
+}
+
+.glassWrap {
+  height: 160px;
+  width: 760px;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 25px 40px;
+  border: black solid 5px;
+  border-radius: 10px;
+}
+
+.glassList img {
+  padding: 10px;
+  border: 1px black solid;
+  border-radius: 5px;
+  width: 100px;
+  cursor: pointer;
+}

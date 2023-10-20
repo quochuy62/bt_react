@@ -1,0 +1,31 @@
+.color-box {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+}
+
+.orange {
+    background-color: orange;
+}
+.green {
+    background-color: green;
+}
+.white {
+    background-color: white;
+}
+.nav-right-choose > div{
+    text-align: left;
+    color: aliceblue;
+}
+.title-list{
+color: aliceblue;
+text-align: center;
+font-weight: 900;
+}
+
+table > * {
+    color: aliceblue;
+}
+table td {
+    color: orange;
+}
